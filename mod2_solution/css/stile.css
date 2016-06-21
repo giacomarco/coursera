@@ -1,0 +1,82 @@
+/* Marco Giacobazzi*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size:1em;
+}
+
+h1{
+    text-align: center;
+    margin: 2em;
+	font-size:3em;
+}
+
+h2{
+    text-align: center;
+    float: right;    
+    width: 13vw;
+    min-width: 5em;
+	font-size:1.7em;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;    
+    position: relative;
+}
+
+section{
+    height: auto;
+    background-color: silver;
+	margin:1%;
+}
+
+p{
+	padding: 0.5em;
+	clear: right;
+}
+
+#chicken{
+    background-color: #FCC;
+}
+
+#beef{
+    background-color: #FFC;
+}
+
+#sushi{
+    background-color: #CFC;
+}
+
+.box{
+    float: left;
+    border: 1px solid black;
+ }
+ 
+/*********************/
+/*       desktop     */
+/*********************/
+@media (min-width: 992px) {
+  .box-desktop-30 {
+	  width: 31%;
+  }
+}
+/*********************/
+/*       tablet      */
+/*********************/
+@media (min-width: 768px) and (max-width: 991px) {
+  	.box-tablet-50 {
+		width: 48%;
+  	}
+  	.box-tablet-100 {
+		width: 98%;
+  	}
+}
+/*********************/
+/*       mobile      */
+/*********************/
+@media (max-width: 767px) {
+  .box-mobile-100 {
+ 	 width: 98%;
+	}
+}
